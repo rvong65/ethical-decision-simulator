@@ -11,6 +11,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Audit](https://img.shields.io/badge/Audit-Multi--model%20ethics-818CF8?style=flat-square)](docs/architecture.md)
 [![Docker](https://img.shields.io/badge/Docker-Groq%20%7C%20Ollama-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/rvong65/ethical-decision-simulator#docker)
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ethical-decision-simulator.streamlit.app/)
 
 An **ethical decision simulator** for auditing how large language models reason through moral dilemmas — surfacing alignment risks, framework conflicts, and cross-model disagreement with structured, exportable outputs. 
 
