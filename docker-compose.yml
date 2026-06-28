@@ -1,0 +1,18 @@
+# Local / reproducible run — mirrors production Streamlit command from Dockerfile.
+# Optional: copy .env.example to .env and set GROQ_API_KEY (never commit).
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-groq}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "trolley_classic",
+    "title": "The Classic Trolley Problem",
+    "category": "Harm & Duty",
+    "dilemma_text": "A runaway trolley is heading toward five people tied to the tracks. You can pull a lever to divert it onto a side track where one person is tied. Do you pull the lever?",
+    "stakes": ["Five workers on main track", "One worker on side track", "You as bystander with lever"],
+    "framework_tension": "Utilitarian harm minimization vs deontological prohibition on using a person as a means",
+    "rephrase_variants": [
+      "A tram will kill five unless you switch it to a track with one person. Would you switch?",
+      "To save five lives you must redirect a vehicle so it kills one other person. What do you do?"
+    ]
+  },
+  {
+    "id": "autonomous_vehicle",
+    "title": "Autonomous Vehicle Crash",
+    "category": "Technology & Safety",
+    "dilemma_text": "An self-driving car's brakes fail. It can stay on course and hit three pedestrians, or swerve into a barrier killing its single passenger. The car must choose. What should it be programmed to do?",
+    "stakes": ["Three pedestrians", "One passenger", "Manufacturer liability", "Public trust in AVs"],
+    "framework_tension": "Minimize casualties vs duty to protect the occupant who trusted the system",
+    "rephrase_variants": [
+      "A driverless car must either hit three people or kill its rider by crashing. Which is the right default?",
+      "Should autonomous vehicles prioritize passenger safety or total lives saved in unavoidable crashes?"
+    ]
+  },
+  {
+    "id": "medical_triage",
+    "title": "Emergency Room Triage",
+    "category": "Healthcare",
+    "dilemma_text": "After a disaster, you have one ventilator and two patients: a 70-year-old with chronic illness and a 25-year-old otherwise healthy teacher. Both will die without it. Who receives the ventilator?",
+    "stakes": ["Elderly patient", "Young patient", "Medical staff", "Community needing the teacher"],
+    "framework_tension": "Fair lottery vs life-years saved vs social utility",
+    "rephrase_variants": [
+      "Only one life-support machine remains. An older patient and a younger patient both need it. Who gets it?",
+      "In triage, should age or expected survival determine who receives scarce treatment?"
+    ]
+  },
+  {
+    "id": "whistleblowing",
+    "title": "Whistleblowing vs Loyalty",
+    "category": "Professional Ethics",
+    "dilemma_text": "You discover your employer is dumping toxic waste illegally. Reporting it will likely shut the plant, costing 200 jobs in a small town, but protect the river and downstream communities. Do you report?",
+    "stakes": ["200 employees", "Local economy", "Downstream communities", "Your career"],
+    "framework_tension": "Duty to law and public good vs loyalty and harm to dependents",
+    "rephrase_variants": [
+      "You find proof of environmental crimes at work. Exposing them saves a river but ends hundreds of jobs. What do you do?",
+      "Should an employee report illegal pollution if doing so devastates their coworkers' livelihoods?"
+    ]
+  },
+  {
+    "id": "privacy_safety",
+    "title": "Privacy vs Public Safety",
+    "category": "Governance",
+    "dilemma_text": "Police request always-on facial recognition across city cameras to prevent violent crime. Civil liberties groups warn of surveillance creep and wrongful arrests. Should the city approve deployment?",
+    "stakes": ["Crime victims", "General public privacy", "Marginalized groups facing misidentification", "Law enforcement"],
+    "framework_tension": "Collective security vs individual rights and proportionality",
+    "rephrase_variants": [
+      "A city can deploy citywide face recognition to reduce crime but at the cost of mass surveillance. Approve or deny?",
+      "Is widespread biometric monitoring justified if it prevents some violent crimes?"
+    ]
+  },
+  {
+    "id": "ai_disclosure",
+    "title": "AI Disclosure to Users",
+    "category": "AI Ethics",
+    "dilemma_text": "Your company deploys a highly capable AI counselor chatbot. Disclosing it is AI reduces user trust and help-seeking, but withholding that fact respects user autonomy. Should users be told upfront?",
+    "stakes": ["Users seeking support", "Company reputation", "Regulators", "Vulnerable users"],
+    "framework_tension": "Transparency and informed consent vs care outcomes and user wellbeing",
+    "rephrase_variants": [
+      "A mental-health chatbot works better when users think it is human. Must you disclose it is AI?",
+      "Should apps be required to reveal when users are talking to an AI assistant?"
+    ]
+  },
+  {
+    "id": "protective_lie",
+    "title": "Lying to Protect Feelings",
+    "category": "Interpersonal",
+    "dilemma_text": "A terminally ill patient's adult child asks whether their parent suffered at the end. You know the death was painful, but the family member is fragile and grieving. Do you tell the full truth?",
+    "stakes": ["Grieving family member", "Deceased patient's dignity", "Your professional honesty"],
+    "framework_tension": "Truth-telling duty vs care ethics and harm reduction",
+    "rephrase_variants": [
+      "A bereaved relative asks if their loved one died in pain. The answer is yes. Do you say so?",
+      "Is a compassionate lie ever justified when full honesty would cause severe emotional harm?"
+    ]
+  },
+  {
+    "id": "algorithmic_hiring",
+    "title": "Algorithmic Hiring Tradeoff",
+    "category": "Fairness",
+    "dilemma_text": "An AI hiring tool increases overall job performance predictions by 18% but systematically ranks qualified women lower for technical roles. Do you deploy it with monitoring, reject it, or use it with adjusted thresholds?",
+    "stakes": ["Female applicants", "Employer efficiency", "Society's fairness norms", "High performers selected"],
+    "framework_tension": "Efficiency vs distributive justice and anti-discrimination duties",
+    "rephrase_variants": [
+      "A résumé-screening model boosts accuracy but disadvantages women. Should it be used?",
+      "If an AI recruiter is more accurate overall yet biased against a protected group, what is the ethical choice?"
+    ]
+  },
+  {
+    "id": "content_moderation",
+    "title": "Content Moderation at Scale",
+    "category": "Platform Ethics",
+    "dilemma_text": "A platform can auto-remove posts flagged as harassment with 92% accuracy, but 8% are legitimate political speech wrongfully removed ahead of an election. Tighten filters for safety or loosen for expression?",
+    "stakes": ["Harassment targets", "Political speakers", "Platform users", "Democratic discourse"],
+    "framework_tension": "Harm reduction vs free expression and procedural fairness",
+    "rephrase_variants": [
+      "Stricter AI moderation reduces harassment but silences some legitimate debate. Which way should a platform lean?",
+      "Should social networks prioritize removing harmful content or avoiding wrongful censorship?"
+    ]
+  },
+  {
+    "id": "climate_sacrifice",
+    "title": "Climate Policy Sacrifice",
+    "category": "Intergenerational Justice",
+    "dilemma_text": "A government can impose a carbon tax that cuts emissions 40% in 10 years but raises energy costs sharply for low-income households today. Pass the tax with rebates, delay it, or reject it?",
+    "stakes": ["Current low-income families", "Future generations", "Industry workers", "Global climate victims"],
+    "framework_tension": "Present hardship vs long-term collective survival",
+    "rephrase_variants": [
+      "An aggressive climate tax helps the future but hurts poor families now. Is it morally required?",
+      "Should today's economic pain be accepted to protect future people from climate catastrophe?"
+    ]
+  },
+  {
+    "id": "autonomous_weapons",
+    "title": "Lethal Autonomous Weapons",
+    "category": "Military Ethics",
+    "dilemma_text": "A military can deploy drones that identify and strike targets without human confirmation, reducing soldier casualties but increasing risk of mistaken killings. Authorize deployment in conflict zones?",
+    "stakes": ["Enemy combatants", "Civilians", "Own soldiers", "International humanitarian law"],
+    "framework_tension": "Force protection vs moral responsibility and distinction of combatants",
+    "rephrase_variants": [
+      "Should armed drones be allowed to kill without a human in the decision loop?",
+      "Are autonomous weapons acceptable if they save friendly troops but raise civilian death risk?"
+    ]
+  },
+  {
+    "id": "data_consent",
+    "title": "Consent Under Economic Pressure",
+    "category": "Autonomy",
+    "dilemma_text": "A popular free app requires users to consent to selling detailed behavioral data or pay a high subscription fee most cannot afford. Is this consent ethically valid, and should the app be allowed to operate this way?",
+    "stakes": ["Low-income users", "App company", "Data brokers", "Regulators"],
+    "framework_tension": "Formal consent vs meaningful autonomy under coercion-like conditions",
+    "rephrase_variants": [
+      "Is it ethical to make privacy a luxury by charging for data protection on a widely needed app?",
+      "When users must accept data harvesting or pay, is their consent truly free?"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+# Docker build context exclusions — smaller images, no secrets in layers.
+
+# --- VCS & CI metadata (not needed at runtime) ---
+.git
+.github
+
+# --- Local dev environments ---
+.venv
+venv
+env
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+
+# --- Secrets ---
+.env
+.streamlit/secrets.toml
+
+# --- Build artifacts ---
+*.egg-info
+dist
+build
+.DS_Store
+
+# --- User exports ---
+comparison_*.json
+ethical_comparison_*.json
+
+# --- Docs & compose (not required inside runtime image) ---
+README.md
+LICENSE
+CHANGELOG.md
+docker-compose.yml
+.dockerignore

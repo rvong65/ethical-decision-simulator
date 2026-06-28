@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Ethical Decision Simulator">
+  <defs>
+    <linearGradient id="edsGrad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#edsGrad)"/>
+  <path d="M32 18v30" stroke="#E0E7FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M14 26h36" stroke="#E0E7FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M18 26v10" stroke="#C7D2FE" stroke-width="2" stroke-linecap="round"/>
+  <path d="M46 26v10" stroke="#C7D2FE" stroke-width="2" stroke-linecap="round"/>
+  <path d="M12 36h12l-2 6H14l-2-6z" fill="#A5B4FC" fill-opacity="0.9"/>
+  <path d="M40 36h12l-2 6H42l-2-6z" fill="#A5B4FC" fill-opacity="0.9"/>
+  <circle cx="22" cy="26" r="3.5" fill="#FFFFFF"/>
+  <circle cx="42" cy="26" r="3.5" fill="#FFFFFF"/>
+  <path d="M24 50h16" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

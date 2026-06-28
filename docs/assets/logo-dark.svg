@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 72" fill="none" role="img" aria-label="Ethical Decision Simulator">
+  <defs>
+    <linearGradient id="edsGrad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#4338CA"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="64" height="64" rx="14" fill="url(#edsGrad)"/>
+  <path d="M36 22v30" stroke="#E0E7FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M18 30h36" stroke="#E0E7FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M22 30v10" stroke="#C7D2FE" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 30v10" stroke="#C7D2FE" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 40h12l-2 6H18l-2-6z" fill="#A5B4FC" fill-opacity="0.9"/>
+  <path d="M44 40h12l-2 6H46l-2-6z" fill="#A5B4FC" fill-opacity="0.9"/>
+  <circle cx="26" cy="30" r="3.5" fill="#FFFFFF"/>
+  <circle cx="46" cy="30" r="3.5" fill="#FFFFFF"/>
+  <path d="M28 54h16" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="84" y="34" font-family="Inter,Segoe UI,system-ui,sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">Ethical Decision</text>
+  <text x="84" y="58" font-family="Inter,Segoe UI,system-ui,sans-serif" font-size="22" font-weight="700" fill="#A5B4FC">Simulator</text>
+</svg>

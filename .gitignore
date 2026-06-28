@@ -1,0 +1,27 @@
+# --- Python bytecode & caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Secrets & local env (never commit API keys) ---
+.env
+.streamlit/secrets.toml
+
+# --- Build artifacts ---
+*.egg-info/
+dist/
+build/
+
+# --- OS ---
+.DS_Store
+
+# --- User-generated audit exports (session downloads) ---
+comparison_*.json
+ethical_comparison_*.json
